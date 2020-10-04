@@ -1,37 +1,307 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="es">
 
-You can use the [editor on GitHub](https://github.com/servidorjuandavid/tuprofeprimaria/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="clases personalizadas de enseñanza  y nivelación académica para primaria en el valle de aburrá">
+  <meta name="author" content="Juan David Agudelo">
 
-### Markdown
+  <title>tu profe primaria</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-```markdown
-Syntax highlighted code block
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.22.0/firebase-app.js"></script>
 
-- Bulleted
-- List
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/7.22.0/firebase-analytics.js"></script>
 
-1. Numbered
-2. List
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+</head>
 
-**Bold** and _Italic_ and `Code` text
+<body id="page-top">
 
-[Link](url) and ![Image](src)
-```
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Tu profe primaria</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Inicio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">Nosotros</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">Valores</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Servicios</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Precios</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </nav>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  <!-- Header -->
+  <div id="content">
+    <div>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="img/logotuprofeprimaria.png" width="100%" alt="tu profe primaria">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="img/Se aprende jugando.png" width="100%" alt="tu profe primaria">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="img/Talleres de lecto escritura.png" width="100%" alt="tu profe primaria">
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="Anterior">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="Siguiente">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Integralmente avanzamos hacia el conocimiento</h2><br></br>
+            <p class="lead mb-5">Somos un grupo de profesionales, orientados para apoyar integralmente a los estudiantes
+              de primaria en el sur del valle de aburrá, en sus refuerzos, nivelaciones, tareas y demas enseñanzas. </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" <a href="https://api.whatsapp.com/send?phone=573147683232"
+              target="_blank">Contactanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-### Jekyll Themes
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5">Nuestros valores y principios</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-check"></i>
+            </span>
+            <h4>
+              <strong>Compromiso</strong>
+            </h4>
+            <p class="text-faded mb-0">Convicción es el camino</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+            <h4>
+              <strong>Aprendizaje</strong>
+            </h4>
+            <p class="text-faded mb-0">Nuestro objetivo es la enseñanza</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+            <h4>
+              <strong>Empatía</strong>
+            </h4>
+            <p class="text-faded mb-0">Amar
+              <i class="fas fa-heart"></i>
+              Reir<i class="fas fa-heart"></i>
+              Compartir</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-user"></i>
+            </span>
+            <h4>
+              <strong>Autonomía</strong>
+            </h4>
+            <p class="text-faded mb-0">Capacidad de tomar decisiones</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/servidorjuandavid/tuprofeprimaria/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Servicios</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Clases de todas las áreas </div>
+                  <p class="mb-0">Clases, asesorias, refuerzos, nivelaciones, tareas de todas las áreas pedagogicas</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Integralidad Educativa</div>
+                  <p class="mb-0">Desarrollo integral del ser humano en sus áreas social, física, cognitiva y espiritual
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Lectoescritor y matemático</div>
+                  <p class="mb-0">Iniciamos y reforzamos el proceso lectoescritor y matemático</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/lecto.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Psicomotricidad fina y motriz </div>
+                  <p class="mb-0">Trabajamos la Psicomotricidad del estudiante</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/bg-callout.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+    <section class="pricing py-5" id="precios">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Precios</h2>
+        </div>
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Virtual</h5>
+                <h6 class="card-price text-center">$10.000<span class="period">/hora</span></h6>
+                <hr>
+                <a href="https://api.whatsapp.com/send?phone=573147683232"
+                  class="btn btn-block btn-primary text-uppercase">Contratar</a>
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Presencial</h5>
+                <h6 class="card-price text-center">$20.000<span class="period">/hora</span></h6>
+                <hr>
+                <a href="https://api.whatsapp.com/send?phone=573147683232"
+                  class="btn btn-block btn-primary text-uppercase">Contratar</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Promoción</h5>
+                <h6 class="card-price text-center">$50.000<span class="period">/3 Horas Presenciales</span></h6>
+                <h6 class="card-price text-center">$25.000<span class="period">/3 Horas Virtuales</span></h6>
+                <hr>
+                <a href="https://api.whatsapp.com/send?phone=573147683232"
+                  class="btn btn-block btn-primary text-uppercase">Contratar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center">
+      <h4>línea de atención al cliente www.tuprofeprimaria.com </h4>
+      <!--  aca el despuesde phone va el numero de whatsapp-->
+      <a href="https://api.whatsapp.com/send?phone=573147683232" target="_blank">
+        <!-- aui la rutad e la imagen del logo de whatsapp-->
+        <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="tuprofeprimaria telefono">
+      </a>
+    </div>
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#!">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#!">
+              <i class="icon-social-instagram"></i>
+            </a>
+          </li>
+
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; tuprofeprimaria</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
